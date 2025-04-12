@@ -1,0 +1,33 @@
+div{
+  width: 400px;
+  height: 400px;
+  background-image: url("/css-assignment-5-8.png");
+  font-size: 30px;
+  background-color: rgb(152, 175, 209);
+  background-repeat: no-repeat;
+  
+}
+.assign-4-shape-1{
+background-size: 80% 80%;
+}
+.assign-4-shape-2{
+background-size: 80% 100%;
+background-position: right;
+}
+.assign-4-shape-3{
+background-size: 100% 80%;
+background-position: bottom;
+}
+.assign-4-shape-4{
+background-size: 50% 50%;
+background-position: bottom right;
+}
+
+
+/* إستخدم البنية السابقة لعمل المطلوب
+ال Div طوله وعرضه هو 400px
+قم بوضع الصورة الموجودة في بداية التكليفات خلفية للعنصر
+في Shape 1 قم بجعل الخلفية تملأ 80% من الطول والعرض الخاص بالعنصر
+في Shape 2 قم بعمل الشكل مثل الصورة
+في Shape 3 قم بعمل الشكل مثل الصورة
+في Shape 4 قم بجعل الخلفية تأخذ 50% من طول وعرض العنصر وقم بتغيير مكانها */
