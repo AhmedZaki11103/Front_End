@@ -1,0 +1,35 @@
+div{
+  width: 400px;
+  height: 400px;
+  background-image: url("css-assignment-5-8.png");
+  font-size: 30px;
+}
+.assign-3-shape-1{
+  background-repeat: no-repeat;
+}
+.assign-3-shape-2{
+background-repeat: repeat-y;
+background-position: right;
+}
+.assign-3-shape-3{
+background-repeat: repeat-x;
+background-position: left;
+}
+.assign-3-shape-4{
+background-repeat: repeat;
+}
+
+
+
+
+
+
+
+/* 
+إستخدم البنية السابقة لعمل المطلوب
+ال Div طوله وعرضه هو 400px
+قم بوضع الصورة الموجودة في بداية التكليفات خلفية للعنصر
+في Shape 1 قم بجعل الخلفية لا تتكرر نهائيا
+في Shape 2 قم بجعل الخلفية تتكرر طوليا فقط ومكانها يكون ناحية اليمين
+في Shape 3 قم بجعل الخلفية تتكرر عرضيا فقط ومكانها يكون ناحية الأسفل
+في Shape 4 قم بجعل الخلفية تتكرر طوليا وعرضيا */
