@@ -1,0 +1,20 @@
+div{
+  font-size: 20px;
+  width: 400px;
+  background-color: #EEE;
+  margin: 30px;
+  padding: 15px;
+  border-left: 7px solid;
+  outline: 10px solid #EEE;
+}
+
+.element-1{
+border-color: #e91e63;
+}
+.element-2{
+border-color: #5ee91e;
+}
+.element-3{
+border-color: #009688;
+}
+

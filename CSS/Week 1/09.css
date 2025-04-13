@@ -1,0 +1,32 @@
+div{
+  display: inline-block;
+  background-color: #EEE;
+  width: 100px;
+  height: 55px;
+  margin-right: 10px;
+  border: 5px;
+  outline: 5px solid black;
+  text-align: center;
+  line-height: 3;
+}
+
+.shape-1{
+  border-color: red;
+  border-style: solid;
+}
+.shape-2{
+  border-color: blue green;
+  border-style: solid;
+}
+.shape-3{
+  border-color: red green blue yellow;
+  border-style: dashed;
+}
+
+
+/* 
+قم بعمل ثلاث عناصر نوعهم Div
+قم بوضع الثلاث عناصر بجانب بعضهم وبدون تحديد عرض لهم
+قم بعمل نفس الشكل الموجود في المثال بنفس الألوان
+حجم كل حافة من الحواف هو 5px  
+*/
