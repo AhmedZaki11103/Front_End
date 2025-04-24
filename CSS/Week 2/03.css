@@ -1,0 +1,11 @@
+.Name{
+  background-color: darkgray;
+  width: fit-content;
+  margin: auto;
+  padding: 25px;
+  border-radius: 25px;
+  text-shadow:
+    1px 1px #eb4236,
+    2px 2px #3089eb,
+    3px 3px #8f32b7;
+} 
