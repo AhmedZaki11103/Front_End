@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ul-parent {
+  width: 400px;
+  margin: 30px auto;
+}
+
+.html-list,
+.css-list,
+.js-list {
+  background-color: #eee;
+  margin: 15px;
+  padding: 10px 4px 10px 7px;
+  list-style-type: none;
+}
+
+.child-list1, 
+.child-list2, 
+.child-list3 {
+  padding-inline-start: 25px;
+  font-size: 13px;
+}
+
+.item-group-one,
+.item-group-two,
+.item-group-three {
+  background-color: #ffffff;
+  margin: 5px;
+  padding: 5px;
+}
+.child-list2 {
+  list-style-type: upper-roman;
+}
+.child-list3 {
+  list-style-position: inside;
+  padding-inline-start: 0px;
+}

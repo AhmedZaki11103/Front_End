@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test (27-29)</title>
+  <style>
+    .parent {
+  width: 800px;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(237, 233, 233);
+}
+.parent div {
+  background-color: rgb(212, 212, 212);
+  float: left;
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.clear {
+  clear: both;
+}
+.one {
+  width: calc((100% - 50px));
+}
+.two {
+  width: calc((100% - 85px) / 2);
+}
+.three {
+  width: calc((100% - 120px) / 3);
+}
+.four {
+  width: calc((100% - 155px) / 4);
+  margin-bottom: 15px;
+}
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="one">Full width</div>
+    <p class="clear"></p>
+    <div class="three">1\3</div>
+    <div class="three">1\3</div>
+    <div class="three">1\3</div>
+    <p class="clear"></p>
+    <div class="two">1\2</div>
+    <div class="two">1\2</div>
+    <p class="clear"></p>
+    <div class="four">1\4</div>
+    <div class="four">1\4</div>
+    <div class="four">1\4</div>
+    <div class="four">1\4</div>
+    <p class="clear"></p>
+  </div>
+</body>
+</html>

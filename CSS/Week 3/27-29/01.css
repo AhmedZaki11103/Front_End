@@ -1,0 +1,35 @@
+.parent {
+  width: 800px;
+  height: 300px;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(237, 233, 233);
+}
+.parent div {
+  background-color: rgb(212, 212, 212);
+  float: left;
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+  line-height: 2.5;
+}
+
+.clear {
+  clear: both;
+}
+.one {
+  width: calc((100% - 50px));
+  height: calc((((100% - 15px)/4) - 35px));
+}
+.two {
+  width: calc((100% - 85px) / 2);
+  height: calc((((100% - 15px)/4) - 35px));
+}
+.three {
+  width: calc((100% - 120px) / 3);
+  height: calc((((100% - 15px)/4) - 35px));
+}
+.four {
+  width: calc((100% - 155px) / 4);
+  height: calc((((100% - 15px)/4) - 35px));
+}

@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 700px;
+  margin: 30px auto;
+  text-align: center;
+  border-spacing: 2px;
+  font-size: 15px;
+}
+table th {
+  background-color: #404040;
+  color: white;
+  padding: 13px;
+}
+table td {
+  background-color: #eee;
+  margin: 10px;
+  padding: 10px;
+  /* border: 1px solid #404040; */
+}
+.t-view,
+.t-delete {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  padding: 3px 8px;
+}
+.t-view {
+  background-color: #03a9f4;
+}
+.t-delete {
+  background-color: #e91e63;
+}
