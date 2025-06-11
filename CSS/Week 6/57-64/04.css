@@ -1,0 +1,41 @@
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px;
+}
+.grid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2196f3;
+}
+
+.eight {
+  order: -1;
+  grid-area: 1/1/1/4;
+}
+.one {
+  order: 1;
+  grid-area: 6/1/6/4;
+}
+.two {
+  grid-area: 2 / 1 / 2 / 3;
+}
+.five {
+  grid-area: 3 / 2 / 6 / 4;
+}

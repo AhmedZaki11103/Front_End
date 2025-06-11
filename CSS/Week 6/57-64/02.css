@@ -1,0 +1,51 @@
+* {
+  --padding: 10px;
+}
+.layout {
+  width: 800px;
+  height: 500px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 10% 80% 10%;
+  grid-template-areas:
+    "header header header header"
+    "section section section aside"
+    "footer footer footer footer";
+  color: white;
+}
+header {
+  background-color: rgb(30 29 30);
+  grid-area: header;
+  padding: var(--padding);
+}
+header::before {
+  content: "header";
+}
+
+section {
+  background-color: rgb(168 164 164);
+  grid-area: section;
+  padding: var(--padding);
+}
+section::before {
+  content: "section";
+}
+
+aside {
+  background-color: rgb(95, 95, 95);
+  grid-area: aside;
+  padding: var(--padding);
+}
+aside::before {
+  content: "aside";
+}
+
+footer {
+  background-color: rgb(30 29 30);
+  grid-area: footer;
+  padding: var(--padding);
+}
+footer::before {
+  content: "footer";
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 600px;
+  margin: 25px auto;
+  padding: 15px;
+  font-size: 20px;
+  background-color: #f4f4f4;
+  caret-color: red;
+  border: none; /* لإلغاء ال border الافتراضي*/
+  border-bottom: 3px solid transparent; /* لجعل هناك مسافة أسفل كل عنصر تستقر فيها الخلفية*/
+  background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+  background-size: 100% 3px;
+  background-position: 0px  106%;
+  background-repeat: no-repeat;
+}
+input:focus {
+  outline: none;
+}
+
+/*============== مينفعش تستخدم before مع input =============
+  input::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  width: 100%;
+  height: 5px;
+  background-color: red;
+  background-image: linear-gradient(
+    to right,
+    #f44336 50%,
+    #2196f3 50%,
+  ); 
+} 
+*/

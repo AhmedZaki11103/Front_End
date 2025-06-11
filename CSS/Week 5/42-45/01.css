@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.parent {
+  width: 400px;
+  height: 200px;
+  background-color: #EEE;
+  padding: 10px;
+  margin: 50px auto;
+  transition: margin 0.5s ;
+}
+.child {
+  background-color: #d0cfcf;
+  padding: 15px;
+  margin: 20px;
+  transition: margin 0.5s 0.5s;
+}
+.parent:hover {
+  margin-top: 0px;
+  .child{
+    margin-top: 50px;
+  }
+}

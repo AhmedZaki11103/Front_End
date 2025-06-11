@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.parent {
+  width: 600px;
+  height: 300px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: #eee;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.parent div {
+  display: flex;
+  align-items: center;
+  justify-content: center; /*لتوسيط المحتوى داخل الأبناء*/
+  background-color: #009688;
+  height: calc(90% /3);
+}
+
+.one,
+.three {
+  align-self: flex-end;
+  padding: 10px;
+}
+.two {
+  width: 55%;
+}
+

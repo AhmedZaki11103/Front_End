@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.parent {
+  width: 600px;
+  height: 300px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: #eee;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.parent div {
+  display: flex;
+  align-items: center;
+  justify-content: center; /*لتوسيط المحتوى داخل الأبناء*/
+  padding: 40px;
+  height: 50%;
+}
+.one {
+  background-color: #ff9800;
+  order: 2;
+}
+.two {
+  background-color: #8bc34a;
+  order: 3;
+}
+.three {
+  background-color: #795548;
+  order: 4;
+}
+.four {
+  background-color: #673ab7;
+  order: 1;
+}
+
+
+.two,
+.four {
+align-self: flex-end;
+}
