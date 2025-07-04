@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  perspective: 400px;
+}
+div {
+  height: 200px;
+  width: 200px;
+  margin: 150px auto;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+div:hover {
+  transform: rotateY(180deg);
+}
+div::after,
+div::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div::after {
+  content: "Back";
+  background-color: #1892fc;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+div::before {
+  content: "Front";
+  background-color: #e91e63;
+}

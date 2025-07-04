@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+div {
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  color: #03a9f4;
+  position: relative;
+  background-color: #eee;
+}
+
+div::before,
+div::after {
+  content: "";
+  position: absolute;
+  left: auto;
+  top: auto;
+  width: 105%;
+  height: 105%;
+}
+div::after {
+  background-color: #03a9f4;
+  z-index: -1;
+  transform: rotate(-6deg);
+}
+div::before {
+  background-color: #e91e63;
+  z-index: -2;
+  transform: rotate(6deg);
+}

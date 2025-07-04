@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+:root {
+  --main-color: #009688;
+}
+
+.shape {
+  width: 150px;
+  margin: 100px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--main-color);
+}
+
+.shape::after,
+.shape::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  height: 100%;
+  background-color: var(--main-color);
+  transform: skewX(20deg);
+}
+.shape::after {
+  left: -15px;
+  width: 20%;
+}
+.shape::before {
+  left: -42px;
+  width: 12%;
+}
