@@ -1,0 +1,15 @@
+document.writeln(`-1 ${document.querySelector("#elzero").innerHTML} <br/>`);
+document.writeln(`-2 ${document.querySelector(".element").innerHTML} <br/>`);
+document.writeln(`-3 ${document.querySelector("[name= 'js']").innerHTML} <br/>`);
+document.writeln(`-4 ${document.querySelector("div").innerHTML} <br/>`);
+document.writeln(`-5 ${document.querySelectorAll("#elzero")[0].innerHTML} <br/>`);
+document.writeln(`-6 ${document.querySelectorAll(".element")[0].innerHTML} <br/>`);
+document.writeln(`-7 ${document.querySelectorAll("[name= 'js']")[0].innerHTML} <br/>`);
+document.writeln(`-8 ${document.querySelectorAll("div")[0].innerHTML} <br/>`);
+document.writeln(`-9 ${document.getElementById("elzero").innerHTML} <br/>`);
+document.writeln(`-10 ${document.getElementsByClassName("element")[0].innerHTML} <br/>`);
+document.writeln(`-11 ${document.getElementsByName("js")[0].innerHTML} <br/>`);
+document.writeln(`-12 ${document.getElementsByTagName("div")[0].innerHTML} <br/>`);
+document.writeln(`-13 ${document.body.firstElementChild.innerHTML} <br/>`);
+document.writeln(`-14 ${document.body.children[0].innerHTML} <br/>`);
+document.writeln(`-15 ${document.body.childNodes[1].innerHTML}`);

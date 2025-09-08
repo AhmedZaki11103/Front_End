@@ -1,0 +1,53 @@
+.challenge {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  margin: 20px auto;
+}
+.challenge > * {
+  width: 100%;
+  padding: 5px;
+  border-radius: 6px;
+}
+.challenge input {
+  border: 1px solid #ccc;
+}
+.challenge input[type="submit"] {
+  background-color: #009589;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.results > * {
+  background-color: #f54b1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.results > *:hover {
+  background-color: #d63c10;
+}
+@media (max-width: 767px) {
+  .results {
+    grid-template-columns: 1fr;
+  }
+}
