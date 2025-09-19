@@ -24,7 +24,7 @@ let classes = document.querySelector(".classes-list div");
 //   }
 // }
 // showAddClasses();
-
+document.writeln
 function showClasses() {
   while (classes.children.length > 0) {
     classes.removeChild(classes.firstChild);
