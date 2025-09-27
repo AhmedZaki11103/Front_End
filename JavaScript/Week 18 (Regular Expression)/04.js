@@ -1,0 +1,9 @@
+let re = /https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i;
+// https? => http Or https
+// \/\/ => //
+// (?:[-\w]+\.)? => -w(or more). Or Nothing
+// ([-\w]+)\. => -w(or more).
+// \w+ => one or more character
+// (?:\.\w+)? => .one or more char Or Nothing
+// \/? => / Or Nothing
+// .* => any character or space
